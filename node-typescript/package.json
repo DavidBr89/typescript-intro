@@ -1,0 +1,29 @@
+{
+  "name": "node-typescript",
+  "version": "0.0.0",
+  "private": true,
+  "main": ".dist/www",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "nodemon ./bin/start.ts"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.8",
+    "@types/debug": "^4.1.12",
+    "@types/express": "^5.0.0",
+    "@types/http-errors": "^2.0.4",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.10.2",
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.7",
+    "prisma": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
